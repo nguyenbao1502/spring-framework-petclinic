@@ -1,43 +1,23 @@
-Spring MVC Showcase
--------------------
-Demonstrates the capabilities of the Spring MVC web framework through small, simple examples.
-After reviewing this showcase, you should have a good understanding of what Spring MVC can do and get a feel for how easy it is to use.
-Includes project code along with a supporting slideshow and screen cast.
+# Spring 4 MVC Example (Java Configuration) + Maven
+Template example for Spring 4 MVC + JSP View with pure Java Configuration (no XML), using Maven build tool.
 
-In this showcase you'll see the following in action:
+###1. Technologies
+* Spring 4.3.0.RELEASE
+* Maven 3.3.3
+* JSTL 1.2
 
-* The simplest possible @Controller
-* Mapping Requests
-* Obtaining Request Data
-* Generating Responses
-* Message Converters
-* Rendering Views
-* Type Conversion
-* Validation
-* Forms
-* File Upload
-* Exception Handling
+###2. To Run this project locally
+```shell
+$ git clone https://github.com/viralpatel/spring4-mvc-example
+$ mvn tomcat7:run
+```
+Access ```http://localhost:8080/spring4/hello```
 
-To get the code:
--------------------
-Clone the repository:
+###3. To import this project in Eclipse IDE
+1. ```$ mvn eclipse:eclipse```
+2. Import into Eclipse via **existing projects into workspace** option.
+3. Done. 
 
-    $ git clone git://github.com/SpringSource/spring-mvc-showcase.git
 
-If this is your first time using Github, review https://help.github.com to learn the basics.
-
-To run the application:
--------------------	
-From the command line with Maven:
-
-    $ cd spring-mvc-showcase
-    $ mvn jetty:run 
-
-Access the deployed web application at: http://localhost:8080/spring-mvc-showcase/
-
-Note:
--------------------
-
-This showcase originated from a [blog post](https://spring.io/blog/2010/07/22/spring-mvc-3-showcase/) and was adapted into a SpringOne presentation called [Mastering MVC 3](https://www.infoq.com/presentations/Mastering-Spring-MVC-3).
-
-A screen cast showing the showcase in action is [available in QuickTime format](http://s3.springsource.org/MVC/mvc-showcase-screencast.mov).
+###3. Project Demo
+Please refer to this article [Spring 4 MVC Hello World](http://viralpatel.net/blogs/spring-4-mvc-tutorial-maven-example/)
